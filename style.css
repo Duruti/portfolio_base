@@ -2,12 +2,10 @@
    margin: 0;
    padding: 0;
    text-decoration: none;
-   /* box-shadow: 0 0 0 3px red inset; debug */
 }
 
 a {
    text-decoration: none;
-   color :#1A1A17
 }
 
 body {
@@ -97,9 +95,8 @@ body {
 
 .top10 {
    font-family: "Paytone One", sans-serif;
-   font-size: 4rem;
    text-align: center;
-   padding: 80px 0;
+   padding: 50px 0;
    /* border-top: 1px solid #030303; */
    /* background-color: #3b56b8; */
 }
@@ -116,11 +113,10 @@ body {
 }
 
 .card {
-
    background-color: #F9F9F9;
    font-family: sans-serif;
    width: 400px;
-   height: 510px;
+   height: 500px;
    margin: 10px;
    border: 1px solid black;
    border-radius: 3%;
@@ -137,8 +133,6 @@ body {
 }
 
 .cardType {
-   font-family: "Paytone One", sans-serif;
-
    font-size: 25px;
    padding: 5px;
    display: flex;
@@ -147,8 +141,6 @@ body {
 }
 
 .cardTitle {
-   font-family: "Paytone One", sans-serif;
-
    font-size: 30px;
    padding: 5px;
 }
@@ -157,12 +149,10 @@ body {
    padding: 5px;
    padding-bottom: 10px;
    border-bottom: 1px solid black;
-   height: 60px;
 }
 
 .cardSpecs {
-   font-family: "Paytone One", sans-serif;
-   padding: 5px 0;
+   padding: 5px;
    text-align: center;
 
 }
@@ -224,48 +214,6 @@ footer h3 {
 
 @media screen and (max-width:1024px) {
    .goat {
-      width: 400px;
-      height: 400px;
-   }
-
-   .intro {
-      flex-direction: column-reverse;
-      padding: 10px;
-   }
-
-   .intro h1 {
-      font-size: 2.2rem;
-      text-align: center;
-      
-   }
-
-   .intro h2 {
-      font-size: 1.5rem;
-      text-align: center;
-   }
-
-   .text {
-      font-size: 1.2rem;
-   }
-   .top10{
-      font-size: 3rem;
-      }
-   .cards {
-      grid-template-columns: repeat(1, 450px);
-   }
-
-   .card {
-      width: 400px;
-      height: auto;
-   }
-
-   .listeLiens {
-      flex-direction: row;
-      align-items: center;
-   }
-}
-@media screen and (max-width:768px) {
-   .goat {
       width: 300px;
       height: 300px;
    }
@@ -273,25 +221,21 @@ footer h3 {
    .intro {
       flex-direction: column-reverse;
       padding: 10px;
+
    }
 
    .intro h1 {
       font-size: 2.2rem;
-      text-align: center;
-      
    }
 
    .intro h2 {
       font-size: 1.5rem;
-      text-align: center;
    }
 
    .text {
       font-size: 1.2rem;
    }
-   .top10{
-      font-size: 2.2rem;
-      }
+
    .cards {
       grid-template-columns: repeat(1, 450px);
    }
@@ -302,10 +246,9 @@ footer h3 {
    }
 
    .listeLiens {
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
    }
-
 }
 
 @media screen and (max-width:480px) {
@@ -313,10 +256,6 @@ footer h3 {
       font-size: 2.0rem;
    }
 
-   .top10{
-   font-size: 1.8rem;
-
-   }
    .cards {
       grid-template-columns: repeat(1, 450px);
    }
@@ -325,16 +264,9 @@ footer h3 {
       width: 310px;
       height: auto;
    }
-   .cardTitle{
-      font-size: 1.6rem;
-   }
    .cardImage {
       width: 100%;
       height: 227px;
-   }
-   .listeLiens {
-      flex-direction: column;
-      align-items: center;
    }
    footer h3 {
       font-size: 1.5rem;

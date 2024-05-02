@@ -1,42 +1,84 @@
 [
-   {
-      "type" : "Game",
-      "link" : "https://duruti.itch.io/remake-rick-dangerous",
-      "title" : "CRAZY DANCE FLOOR",
-      "image" : "images/crazyDanceFloor.png",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
-      "specs" : ["lua","love2D"]
-   },
+{
+   "type" : "WEB",
+   "link" : "https://duruti.go.yj.fr/challenge-Frontend-Mentor/fylo-dark-theme-landing-page/",
+   "title" : "CHALLENGE FRONTEND",
+   "image" : "images/fylo.png",
+   "alt" : "Fylo site",
+   "description" : "Exercice d'intégration de maquette Figma en HTML/CSS issue du site challenge-Frontend-Mentor",
+   "specs" : ["HTML","CSS"]
+},
+{
+   "type" : "WEB",
+   "link" : "https://duruti.go.yj.fr/pokemon/",
+   "title" : "POKEMON",
+   "image" : "images/pokemon.png",
+   "alt" : "Pokemon site",
+   "description" : "Découverte des API, réalisation d'un site pour rechercher ton pokemon et découvrir ses caractéristiques",
+   "specs" : ["HTML","CSS","JS"]
+},
+{
+   "type" : "WEB",
+   "link" : "https://duruti.go.yj.fr/chatsocial/",
+   "title" : "CHAT RIT",
+   "alt" : "Chat Rit site",
+   "image" : "images/chatsocial.png",
+   "description" : "Parodie d’un réseau social avec la mise en place d’un chat de discussion, pour apprendre à manipuler le DOM",
+   "specs" : ["HTML","CSS","JS"]
+},
+{
+   "type" : "Game WEB",
+   "link" : "https://duruti.go.yj.fr/sokoban/",
+   "title" : "SOKOBAN",
+   "image" : "images/sokoban.png",
+   "alt" : "sokoban game",
+   "description" : "Découverte du JS avec la création du jeu SOKOBAN entièrement en Vanilla HTML/CSS/JS",
+   "specs" : ["HTML","CSS","JS"]
+},
+{
+   "type" : "Game WEB",
+   "link" : "https://duruti.itch.io/escape",
+   "title" : "ESCAPE",
+   "image" : "images/escape.png",
+   "alt" : "escape game",
+   "description" : "Participation à une gamejam et réalisation d’un jeu RPG en Vanilla HTML/CSS/JS",
+   "specs" : ["HTML","CSS","JS"]
+},
    {
       "type" : "Game",
       "link" : "https://duruti.itch.io/crazydancefloor",
-      "title" : "RICK DANGEROUS",
-      "image" : "images/rickDangerous.png",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
+      "title" : "CRAZY DANCE FLOOR",
+      "image" : "images/crazyDanceFloor.png",
+      "alt" : "CRAZY DANCE FLOOR game",
+      "description" : "Participation à une gamejam et travaille en équipe avec une graphiste et un musicien",
       "specs" : ["lua","love2D"]
    },
    {
-      "type" : "Game WEB",
-      "link" : "https://duruti.itch.io/escape",
-      "title" : "ESCAPE",
-      "image" : "images/escape.png",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
-      "specs" : ["HTML","CSS","JS"]
+      "type" : "Game",
+      "link" : "https://duruti.itch.io/remake-rick-dangerous",
+      "title" : "RICK DANGEROUS",
+      "image" : "images/rickDangerous.png",
+      "alt" : "rick dangerous game",
+      "description" : "Mon tout premier jeu, c'est le remake du célèbre RICK DANGEROUS version Atari ST",
+      "specs" : ["lua","love2D"]
    },
+   
    {
       "type" : "Game",
       "link" : "https://duruti.itch.io/flappybirdgameboy",
       "title" : "FLAPPY BIRD",
       "image" : "images/test.gif",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
+      "alt" : "flappy bird gameboy game",
+      "description" : "Découverte de la GAMEBOY lors d’une gamjam avec la réalisation d’un flappy bird",
       "specs" : ["GAMEBOY","Assembly Z80"]
    },
    {
       "type" : "Cours",
-      "link" : "https://duruti.itch.io/flappybirdgameboy",
+      "link" : "https://www.youtube.com/playlist?list=PLl_-eFk1KLKlikm3aUFvdsb3c6aHkDIC0",
       "title" : "HELLO WORLD",
       "image" : "images/coderGameboy.png",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
+      "alt" : "Hello world tuto",
+      "description" : "Une serie de vidéo tuto pour apprendre à coder en assembleur Z80 sur la gameboy",
       "specs" : ["GAMEBOY","Assembly Z80"]
    },
    {
@@ -44,31 +86,9 @@
       "link" : "https://duruti.itch.io/tuto-defold",
       "title" : "CASSE BRIQUE",
       "image" : "images/tutoDefold.png",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
+      "alt" : "Deflod tuto",
+      "description" : "Une serie de vidéo tuto pour découvrir le moteur de jeu DEFOLD qui se programme en LUA",
       "specs" : ["DEFOLD","Lua"]
-   },
-   {
-      "type" : "Game WEB",
-      "link" : "https://duruti.go.yj.fr/sokoban/",
-      "title" : "SOKOBAN",
-      "image" : "images/sokoban.png",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
-      "specs" : ["HTML","CSS","JS"]
-   },
-   {
-      "type" : "WEB",
-      "link" : "https://duruti.go.yj.fr/sokoban/",
-      "title" : "CHALLENGE FRONTEND",
-      "image" : "images/fylo.png",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
-      "specs" : ["HTML","CSS"]
-   },
-   {
-      "type" : "WEB",
-      "link" : "https://duruti.go.yj.fr/pokemon/",
-      "title" : "POKEMON",
-      "image" : "images/pokemon.png",
-      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, incidunt sunt? Ab mollitia animi nihil esse iste cum id labore",
-      "specs" : ["HTML","CSS","JS"]
    }
+   
 ]

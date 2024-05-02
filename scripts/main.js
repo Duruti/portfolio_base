@@ -23,6 +23,7 @@ function createCard(parent,data){
 
    const img = document.createElement('img')
    img.src = data.image
+   img.alt = data.alt
    img.classList.add('cardImage')
    card.appendChild(img)
   
@@ -37,7 +38,8 @@ function createCard(parent,data){
    card.appendChild(description)
   
    const specs = document.createElement('p')
-   specs.innerText = data.specs.join(" ")
+   const text = data.specs.join(" ")
+   specs.innerText = text.toUpperCase()
    specs.classList.add('cardSpecs')
    card.appendChild(specs)
   
